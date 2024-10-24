@@ -1,5 +1,5 @@
 import React from 'react'
-import pcm from '../img/pcm.png';
+import pcm from '/img/pcm.png';
 
 
 

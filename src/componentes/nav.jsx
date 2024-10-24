@@ -1,6 +1,6 @@
 
 import { useState } from 'react';
-import logo from '../img/logo.svg';
+import logo from '/img/logo.svg';
 
 export const Nav = () => {
   const [estaAbierto, setEstaAbierto] = useState(false);
