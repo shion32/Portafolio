@@ -383,7 +383,7 @@ span{
 
 .titulo-pro {
   font-size: 2rem; 
-  margin-left: 9.5rem;
+  margin-left: 11rem;
   margin-top: -9rem;
 }
 
@@ -403,7 +403,7 @@ span{
 #footer{
   height: 5rem;
   padding-bottom: 10rem;
-  width: 20rem;
+  width: 26rem;
 }
 
 .btn-grid {
@@ -423,7 +423,7 @@ span{
 
 .tit {
   font-size: 1.5rem;
-  margin-left: -1rem; 
+  margin-left: 1rem;
   margin-top: -4rem; 
   text-align: center; 
   position: relative; 
@@ -445,7 +445,7 @@ span {
   font-size: 0.8rem; 
 }
 .myNav{
-    width: 40%;
+    width: 42%;
   }
 
 
@@ -477,14 +477,13 @@ span {
     width: 10rem;
     text-align: center;
     font-size: 1.5rem;
- 
-    margin-left: 1rem;
+    margin-left: 2.5rem;
     margin-top: -5rem;
     justify-content: center;
   }
 
   .grid{
-    margin-right: 30rem;
+    margin-right: 28rem;
     gap: 3rem;
   }
 }
