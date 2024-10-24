@@ -1,12 +1,10 @@
 import React from 'react';
-import florGrande from '../img/florGrande.png';
-import florPequeña from '../img/florpequeña.png';
 
 export const Header = () => {
   return (
     <div id='home' className='header'>
-      <img className="florG" src={florGrande} alt="grande" />
-      <img className="florP" src={florPequeña} alt="pequeña" />
+     <img className="florG" src="/img/florGrande.png" alt="Flor Grande" />
+     <img className="florP" src="/img/florPequeña.png" alt="Flor Pequeña" />
       <div className='letra2'>
         <h2>holaa, soy Anny Montaño software developer</h2>
         <div className='letra'>
