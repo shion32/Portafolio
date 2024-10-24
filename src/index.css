@@ -1,0 +1,575 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+  overflow-x: hidden;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+  .iconos{
+    font-size: 7.5rem;
+  }
+  .botones {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .container-tecno{
+    width: 60rem;
+    height: auto; 
+    margin: 0 auto; 
+    padding: 2rem; 
+    display: grid; 
+    justify-content: center; 
+    align-items: center; 
+    position: relative;
+    right: 9rem;
+    margin-top: 4rem;
+  }
+
+ 
+
+  .grid-tecno {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows: repeat(2, auto); 
+    gap: 9rem; 
+    justify-items: center; 
+    align-items: center; 
+  }
+  .contenedor-proyectos{
+    width: 17rem;
+    height: 25rem;
+    position: relative ;
+    top: -3rem;
+  }
+  .contenedor-proyectos1{
+    width: 70rem;
+    
+    position: relative ;
+    right: 15rem;
+  }
+
+  #proyectos{
+    padding-bottom: 3rem;
+  }
+ 
+  .bg-gray-200 {
+    background-color: #e2e8f0; 
+  }
+  
+  
+  
+  p{
+    padding: 1rem; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    font-size: 1.3rem;
+    word-spacing: 5px;
+    font-weight: 600;
+  }
+
+  .p-footer{
+    display: flex;
+    justify-content: left;
+    position: relative;
+    top:2rem;
+    font-size: 1.1rem;
+  }
+
+  .container-footer {
+    position: relative;
+    width: 8rem;
+    left: 73rem;
+    bottom: 2rem;
+    font-size: 2rem;
+    display: flex;
+    gap: 1.3rem; 
+  }
+  .aboutC{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 38rem;
+    margin-top: -22rem;
+    margin-left: 22rem;
+  }
+
+  .about-title{
+    text-align: center;
+    font-size: 2.5rem;
+    border-bottom: #7adcb0 solid;
+    margin-bottom: 1.2rem;
+  }
+  
+  .pc{
+    margin-left: -20rem;
+    margin-top: -13rem
+    
+  }
+  
+
+  .section{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    padding: 23rem; 
+    width: 100%; 
+    box-sizing: border-box; 
+    position: relative; 
+    
+  }
+
+
+  .header {
+    height: 55vh;
+    min-height: 50rem;
+    max-height: 50rem;
+    position: relative;
+    background-color: #f4f6fc;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    overflow: hidden;
+    width: 100%;
+    padding: 0 50px; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+  .active-link{
+    border-bottom: thin solid rgb(255, 255, 255);
+    padding-bottom: 0.5rem;
+    font-weight: bold;
+  }
+
+  #about {
+    padding-bottom: 5rem;
+    margin-bottom: 1rem;
+  }
+
+  .letra {
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    text-align: center; 
+    width: 80%;
+    height: 60%;
+    margin: 30px 60px 0px 45px;
+    font-family: 'Cinzel Decorative', cursive;
+    color: black;
+    font-size: 15px;
+    font-weight: normal !important; 
+    background-color: #fff6ea;
+    position:absolute;
+}
+  
+
+.letra2 {
+  position: absolute;
+  right: 575px; 
+  top: 49%;
+  width: 38%;
+  height: 14%;
+  font-family: 'Cinzel Decorative', cursive;
+  color: black; 
+  -webkit-text-stroke: 1.4px black; 
+  font-size: 2.1em; 
+  text-align: center; 
+}
+
+
+  .florG {
+    position: absolute;
+    right: 0; 
+    top: 50%; 
+    transform: translateY(-50%) scale(1.4); 
+    
+}
+.florP {
+  position: absolute;
+  right: 830px; 
+  top: 32%;
+  transform: translateY(-50%) scale(1.2); 
+  margin: 0;
+  padding: 0;
+}
+
+span{
+  font-size: 1rem;
+  font-weight: 400;
+  color: black;
+}
+.card {
+  display: flex; 
+  column-gap: 2rem; 
+  justify-content: center; 
+  width: 1000rem; 
+   margin-left: -41.8rem;
+   margin-top: -9rem;
+}
+
+#skills{
+  display: flex;
+   align-items: flex-start; 
+   padding-bottom: 1rem;
+    background: #f4f6fc;
+    margin-bottom: 1rem;
+ }  
+  
+
+
+.targetas{
+  width: 17rem;
+  height: 20rem;
+
+}
+
+.textC{
+ 
+   color: black;
+   font-weight: 900; 
+  font-family: 'Cinzel Decorative', cursive;
+}
+
+
+
+.tit{
+  width: 5.5rem;
+  text-align: center;
+ 
+  font-size: 2.5rem;
+ 
+  margin-left: 20rem;
+  position: relative;
+  right: 2rem;
+  margin-top: -18rem;
+  justify-content: center;
+}
+
+.titulo-pro{
+  width: 12rem;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-left: 25rem;
+  position: relative;
+  right: 10rem;
+  margin-top: -18rem;;
+  justify-content: center;
+  
+}
+
+.tecno{
+  width: 16rem;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-left: 13rem;
+  margin-top: -18rem;
+  justify-content: center;
+}
+
+#tecnologias{
+  margin-bottom: 1rem;
+  padding-bottom: 3rem;
+
+}
+
+.botones2{
+  width: 6rem;
+}
+
+@media (max-width: 768px) {
+  .florG {
+      transform: translateY(-50%) scale(0.6); 
+      left: 29%;
+      padding-top: 44rem;
+  }
+
+  .florP {
+      transform: translateY(-50%) scale(0.7); 
+      right: 20%; 
+      margin-top: -1rem;
+  }
+
+
+
+  .header{
+    height: 70vh;
+    min-height: 30rem;
+    max-height: 30rem;
+  }
+
+  .letra {
+    font-size: 0.8rem; 
+    width: 100%;
+    margin: 20px 10px; 
+    padding: 10px; 
+    
+    
+}
+
+.letra2 {
+    right: 8%; 
+    width: 80%; 
+    font-size: 1.3rem; 
+    margin-top: -3rem;
+}
+
+.aboutC {
+  width: 100%;
+  margin-top: 0;
+  margin-left: 0;
+  padding: 0 1rem;
+}
+
+.about-title {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  border-bottom-width: 2px;
+  width: 15rem;
+  -webkit-text-stroke: 1.3px black;
+}
+
+.pc {
+  margin-left: 1rem;
+  margin-top: -4rem;
+  width: 30rem;
+
+}
+
+.pab{
+  font-size: 1rem;
+  
+  width: 18rem;
+ 
+}
+
+ .section {
+  padding: 5rem;
+  margin-bottom: 50px;
+  width: 100%;
+  
+  
+} 
+
+
+.contenedor-proyectos1 {
+  flex-direction: column; 
+  height: 100rem;
+  margin-left: 3rem;
+  width: 20rem;
+  height: 84rem;
+  margin-top: 5rem;
+
+}
+
+#proyectos{
+  padding-bottom: -50rem;
+}
+
+.contenedor-proyectos {
+  width: 80%; 
+  margin: 10px 0; 
+  margin-left: 10rem;
+}
+
+.titulo-pro {
+  font-size: 2rem; 
+  margin-left: 9.5rem;
+  margin-top: -9rem;
+}
+
+.p-footer {
+  justify-content: center; 
+  font-size: 1rem; 
+  top: 1rem; 
+}
+
+.container-footer {
+  left: 0; 
+  bottom: 0; 
+  justify-content: center; 
+  width: 100%; 
+  gap: 1rem; 
+}
+#footer{
+  height: 5rem;
+  padding-bottom: 10rem;
+  width: 20rem;
+}
+
+.btn-grid {
+  width: 100%; 
+  margin: 5px 0; 
+}
+
+.botones2 {
+  width: 45%; 
+  margin: 10px; 
+}
+
+#tecnologias{
+  margin-bottom: 4rem;
+
+}
+
+.tit {
+  font-size: 1.5rem;
+  margin-left: -1rem; 
+  margin-top: -4rem; 
+  text-align: center; 
+  position: relative; 
+  left: 75px; 
+  top: 0; 
+}
+
+.targetas {
+  width: 50%; 
+  height: auto;
+  width: 18rem; 
+}
+
+.textC {
+  font-size: 1.2rem; 
+}
+
+span {
+  font-size: 0.8rem; 
+}
+.myNav{
+    width: 36%;
+  }
+
+
+  #skills{
+    display: flex;
+     width: 100%;
+      margin-bottom: 1rem;
+     
+   } 
+
+   .card {
+    flex-direction: column;
+    column-gap: 2rem; 
+     margin-left: -6rem;
+     margin-top: -1rem
+  }
+
+  .grid-tecno{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto); 
+    gap: 3rem;
+    margin-right: 28rem;
+    
+  }
+  .iconos{
+    font-size: 4rem;
+  }
+  .tecno{
+    width: 10rem;
+    text-align: center;
+    font-size: 1.5rem;
+ 
+    margin-left: 1rem;
+    margin-top: -5rem;
+    justify-content: center;
+  }
+
+  .grid{
+    margin-right: 30rem;
+    gap: 3rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  .florG {
+      transform: translateY(-50%) scale(0.7); 
+      left: 50%; 
+      padding-top: 35rem;
+  }
+
+  .florP {
+      transform: translateY(-50%) scale(0.8); 
+      right: 44%; 
+      margin-top: -0.5rem;
+  }
+
+  .letra {
+      font-size: 0.9rem; 
+      width: 85%; 
+      margin: 30px 10px; 
+      padding: 10px;
+  }
+
+  .letra2 {
+      right: 20%; 
+      width: 60%; 
+      font-size: 1.6rem; 
+  }
+
+  .header {
+      height: 80vh; 
+      min-height: 40rem;
+      max-height: 40rem;
+  }
+  
+  
+
+
+  .logo{
+    display: none;
+  }
+
+  .aboutC {
+    width: 100%;
+    margin-top: 0;
+    margin-left: 0;
+    padding: 0 1rem;
+  }
+  
+  .about-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    border-bottom-width: 2px;
+    width: 18rem;
+    -webkit-text-stroke: 1.4px black;
+  }
+  
+  .pc {
+    margin-left: 5rem;
+    margin-top: -4rem;
+    width: 30rem;
+  
+  }
+  
+  .pab{
+    font-size: 1.1rem;
+    
+    width: 30rem;
+   
+  }
+  .myNav{
+    width: 100%;
+  }
+
+}
+
+h3{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  -webkit-text-stroke: 1.2px black;
+  border-bottom: #7adcb0 solid;
+  width: 23rem;
+
+}
+
+
+
