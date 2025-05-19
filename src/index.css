@@ -29,7 +29,7 @@ html, body {
     justify-content: center; 
     align-items: center; 
     position: relative;
-    right: 9rem;
+    right: 3.5rem;
     margin-top: 4rem;
   }
 
@@ -53,7 +53,7 @@ html, body {
     width: 70rem;
     
     position: relative ;
-    right: 15rem;
+    right: 10rem;
   }
 
   #proyectos{
@@ -88,7 +88,7 @@ html, body {
   .container-footer {
     position: relative;
     width: 8rem;
-    left: 73rem;
+    left: 83rem;
     bottom: 2rem;
     font-size: 2rem;
     display: flex;
@@ -100,7 +100,7 @@ html, body {
     align-items: center;
     width: 38rem;
     margin-top: -22rem;
-    margin-left: 22rem;
+    margin-left: 29rem;
   }
 
   .about-title{
@@ -213,7 +213,7 @@ span{
   column-gap: 2rem; 
   justify-content: center; 
   width: 1000rem; 
-   margin-left: -41.8rem;
+   margin-left: -42.8rem;
    margin-top: -9rem;
 }
 
@@ -248,7 +248,7 @@ span{
  
   font-size: 2.5rem;
  
-  margin-left: 20rem;
+  margin-left: 26rem;
   position: relative;
   right: 2rem;
   margin-top: -18rem;
@@ -261,7 +261,7 @@ span{
   font-size: 2.5rem;
   margin-left: 25rem;
   position: relative;
-  right: 10rem;
+  right: 5rem;
   margin-top: -18rem;;
   justify-content: center;
   
@@ -271,7 +271,7 @@ span{
   width: 16rem;
   text-align: center;
   font-size: 2.5rem;
-  margin-left: 13rem;
+  margin-left: 18.5rem;
   margin-top: -18rem;
   justify-content: center;
 }
