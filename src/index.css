@@ -299,7 +299,18 @@ span{
       margin-top: -1rem;
   }
 
-
+  .container-tecno{
+    width: 60rem;
+    height: auto; 
+    margin: 0 auto; 
+    padding: 2rem; 
+    display: grid; 
+    justify-content: center; 
+    align-items: center; 
+    position: relative;
+    left: -8rem;
+    margin-top: 4rem;
+  }
 
   .header{
     height: 70vh;
@@ -364,7 +375,7 @@ span{
 .contenedor-proyectos1 {
   flex-direction: column; 
   height: 100rem;
-  margin-left: 3rem;
+  margin-left: 1rem;
   width: 20rem;
   height: 84rem;
   margin-top: 5rem;
@@ -383,7 +394,7 @@ span{
 
 .titulo-pro {
   font-size: 2rem; 
-  margin-left: 11rem;
+  margin-left: 8rem;
   margin-top: -9rem;
 }
 
@@ -445,7 +456,7 @@ span {
   font-size: 0.8rem; 
 }
 .myNav{
-    width: 42%;
+    width: 41%;
   }
 
 
@@ -485,6 +496,9 @@ span {
   .grid{
     margin-right: 28rem;
     gap: 3rem;
+  }
+  body {
+    overflow-x: hidden; /* Muy importante para evitar scroll lateral */
   }
 }
 
